@@ -7,10 +7,10 @@ public class Solution extends GuessGame {
              if(guess(middle)==-1) 
               end=middle-1;
              else if(guess(middle)==1)  
-              start=middle+1;
+              start=middle+1; 
              else return 
               middle;
         }
-        return -1;
+        return -1; 
     }
 }
