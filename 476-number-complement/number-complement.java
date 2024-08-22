@@ -6,6 +6,6 @@ class Solution {
         
         int mask = (1 << bitLength) - 1;
         
-        return num ^ mask;
+        return num ^ mask;  
     }
 }
